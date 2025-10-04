@@ -18,7 +18,7 @@
 
 ## 배포 정보
 
-- URL: https://color-game-dain.vercel.app/
+- URL: https://color-game-seokzzoo.vercel.app/
 - 배포 플랫폼: Vercel
 - 소셜 공유: Open Graph, Twitter Card 지원
 
