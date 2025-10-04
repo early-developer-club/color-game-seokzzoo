@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>절대색감 게임</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- 게임 규칙 모달 -->
+    <div id="rules-modal" class="modal">
+      <div class="modal-content">
+        <h2>절대색감 게임 규칙</h2>
+        <ul class style="list-style-type: none; padding-left: 0; margin-left: 0">
+          <li>1. 여러 개의 정사각형 중 미묘하게 다른 색의 정사각형 하나를 찾으세요.</li>
+          <li>2. 단계가 올라갈수록 색의 차이가 작아집니다.</li>
+          <li>3. 각 단계마다 30초의 시간이 주어집니다.</li>
+          <li>4. 세 번 이상 오답을 선택하면 게임이 종료됩니다.</li>
+        </ul>
+        <button id="start-btn">게임 시작</button>
+      </div>
+    </div>
+
+    <!-- 게임 영역 -->
+    <div id="game-container" style="display: none">
+      <div id="level-info">
+        레벨:
+        <span id="level">1</span>
+      </div>
+      <div id="timer">
+        남은 시간:
+        <span id="time">30</span>
+        초
+      </div>
+      <div id="board"></div>
+      <div id="mistakes">
+        오답:
+        <span id="wrong">0</span>
+        /3
+      </div>
+    </div>
+
+    <!-- 결과 팝업 -->
+    <div id="end-modal" class="modal" style="display: none">
+      <div class="modal-content">
+        <h2 id="end-message"></h2>
+        <button id="restart-btn">다시 시작</button>
+        <button id="home-btn">홈으로 가기</button>
+      </div>
+    </div>
+
+    <script src="game.js"></script>
+  </body>
+</html>
