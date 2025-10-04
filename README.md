@@ -16,6 +16,12 @@
 - CSS (Vanilla)
 - JavaScript (Vanilla)
 
+## 배포 정보
+
+- URL: https://color-game-dain.vercel.app/
+- 배포 플랫폼: Vercel
+- 소셜 공유: Open Graph, Twitter Card 지원
+
 ---
 
 ## 프롬프트 및 처리 내역
